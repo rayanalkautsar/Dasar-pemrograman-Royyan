@@ -1,0 +1,11 @@
+diskon belaja
+belanja = int(input("diskon belanja : "))
+if belanja >=1000000:
+	diskon = 0.25 * belanja
+elif belanja >= 500000:
+	diskon = 0.10 * belanja
+else:
+	diskon = 0
+print("_____________________________")
+total = belanja - diskon
+print("total belanja mu adalah =", total)
